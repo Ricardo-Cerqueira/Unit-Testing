@@ -2,7 +2,7 @@
 
 These are some exercises made in the early process of my QA automation journey.
 
-Some information may be outdated.
+Some information may be outdated..
 
 # How to prepare the environment?
 
