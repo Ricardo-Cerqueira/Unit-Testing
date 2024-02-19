@@ -1,7 +1,7 @@
-import { numeroInteiroInvertido } from "./functionslab3";
+import { inverseNumber } from "./functions";
 
-let numero:number= 123;
+let num: number = 300;
 
-let resultado= numeroInteiroInvertido(numero);
+let result: number = inverseNumber(num);
 
-console.log(resultado);
+console.log(result)

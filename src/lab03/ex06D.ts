@@ -1,10 +1,9 @@
-import { multiplosDoisNumInteiros } from "./functionslab3";
+import { multiple2 } from "./functions";
 
-const multiploX:number=2;
-const multiploY:number=5;
+let contadorb1: number = 7
+let contadorb2: number = 5
+let contadorb3: number[] = [10, 35, 5, 21, 100]
 
-const intervalo:number []= [2,5,7,9,10,11];
+let resultb = multiple2(contadorb1, contadorb2, contadorb3);
 
-const resultado=multiplosDoisNumInteiros(multiploX,multiploY,intervalo);
-
-console.log(resultado);
+console.log(resultb)

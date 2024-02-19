@@ -1,8 +1,6 @@
-import { canicultura } from "./functionslab3";
+import { dogWeight } from "./functions";
 
-const pesoAnimalKg:number= 10;
-const racaoGramas: number= 90;
+let peso = 11;
+let kg = 300;
 
-const resultado= canicultura(pesoAnimalKg,racaoGramas);
-
-console.log(resultado);
+console.log(dogWeight(peso, kg));

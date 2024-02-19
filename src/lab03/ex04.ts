@@ -1,7 +1,7 @@
-import { classificacaoQualitativa } from "./functionslab3";
+import { studentGrade } from "./functions";
 
-let nota:number= 11;
+let gradeS: number = Math.floor(8.5);
 
-let resultado =classificacaoQualitativa(nota);
+let result = studentGrade(gradeS);
 
-console.log(resultado);
+console.log(result + ". A nota final é: " + gradeS);

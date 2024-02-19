@@ -1,7 +1,7 @@
-import { separacaoParesImpares } from "./functionslab3";
+import { splitEvenOdd } from "./functions";
 
-const sequencia:number []= [1,2,3,4,5,6,8];
+let num: number[] = [1, 6, 5, 4, 7, 8, 5, 6, 9]
 
-const resultado = separacaoParesImpares(sequencia);
+let result = splitEvenOdd(num);
 
-console.log(resultado);
+console.log(result);

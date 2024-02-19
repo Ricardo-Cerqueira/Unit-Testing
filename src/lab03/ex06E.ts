@@ -1,9 +1,11 @@
-import { somaMultiplosDoisNumInteiros, somaPares } from "./functionslab3";
+import { sumOfMultiplesInRange } from "./functions";
 
-const multiploX:number =2;
-const multiploY:number =5;
-const intervalo:number []= [2,5,7,10,12,13];
+let num1: number = 0;
+let num2: number = 50;
 
-const resultado = somaMultiplosDoisNumInteiros(multiploX, multiploY, intervalo);
+const multipleX: number = 3;
+const multipleY: number = 5;
 
-console.log(resultado);
+let result = sumOfMultiplesInRange(num1, num2, multipleX, multipleY);
+
+console.log(result); // Resultado 14

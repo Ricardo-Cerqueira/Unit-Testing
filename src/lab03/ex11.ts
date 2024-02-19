@@ -1,8 +1,10 @@
-import { posicaoProdutoAcumulado } from "./functionslab3";
+import { productPosition } from "./functions";
 
-const lista:number []= [1,2,3,4,5]
-const numero:number= 30;
 
-const resultado = posicaoProdutoAcumulado(lista,numero);
+let list: number[] = [1,2,3,4,5]
 
-console.log(resultado);
+let limit: number = 23;
+
+let result: number = productPosition(list, limit);
+
+console.log(result)

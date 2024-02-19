@@ -1,7 +1,7 @@
-import { mediaAlgarismosPares } from "./functionslab3";
+import { averageDigitsEven } from "./functions";
 
-const numero:number= 234621;
+let num: number = 340;
 
-const resultado= mediaAlgarismosPares(numero);
+let result: number = averageDigitsEven(num);
 
-console.log(resultado);
+console.log(result)

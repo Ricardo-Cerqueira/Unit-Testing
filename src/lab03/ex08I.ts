@@ -1,7 +1,7 @@
-import { mediaAlgarismosImpares } from "./functionslab3";
+import { averageDigitsOdd } from "./functions";
 
-const numero:number = 1324586;
+let num: number = 300;
 
-const resultado = mediaAlgarismosImpares(numero);
+let result: number = averageDigitsOdd(num);
 
-console.log(resultado);
+console.log(result)

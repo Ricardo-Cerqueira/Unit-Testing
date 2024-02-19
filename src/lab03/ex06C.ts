@@ -1,7 +1,7 @@
-import { multiplosTresCinco } from "./functionslab3";
+import { multiple3and5 } from "./functions";
 
-const intervalo:number []= [3,4,5,9,10,13,17];
+let contador: number[] = [15, 35, 80];
 
-const resultado= multiplosTresCinco(intervalo);
+let result = multiple3and5(contador)
 
-console.log(resultado);
+console.log(result)

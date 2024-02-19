@@ -1,9 +1,9 @@
-import { somaPares } from "./functionslab3";
+import { sumEven } from "./functions";
 
-let result:number;
+const num1: number = 2;
 
-const numeros:number []= [2,3,5,6,8];
+const num2: number = 6;
 
-result = somaPares(numeros);
+let result = sumEven(num1, num2);
 
-console.log(result);
+console.log(result)

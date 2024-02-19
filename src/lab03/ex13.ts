@@ -1,7 +1,7 @@
-import { obterNumero } from "./functionslab3";
+import { givenNumber } from "./functions";
 
-const numero:number= 5;
+let num: number = 5;
 
-const resultado = obterNumero(numero);
+let result = givenNumber(num);
 
-console.log(resultado);
+console.log(result);

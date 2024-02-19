@@ -1,7 +1,7 @@
-import { contaAlgarismosImpares } from "./functionslab3";
+import { numAlgarithOdd } from "./functions";
 
-const numero:number= 135689;
+let num: number = 300;
 
-const resultado= contaAlgarismosImpares(numero);
+let result: number = numAlgarithOdd(num);
 
-console.log(resultado);
+console.log(result)

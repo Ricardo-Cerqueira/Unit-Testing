@@ -1,9 +1,11 @@
-import { mediaMultiplos } from "./functionslab3";
+import { multipleAverage } from "./functions";
 
-const multiplo:number =5;
-const inicioIntervalo:number=10;
-const fimIntervalo:number =20;
+const num1: number = 2;
 
-const resultado = mediaMultiplos(multiplo,inicioIntervalo,fimIntervalo);
+const num2: number = 6;
 
-console.log(resultado);
+const multiple: number = 2;
+
+let result = multipleAverage(num1, num2, multiple);
+
+console.log(result);

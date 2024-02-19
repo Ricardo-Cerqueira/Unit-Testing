@@ -1,8 +1,9 @@
-import { cambio } from "./functionslab3";
+import { exchange } from "./functions";
 
-let moeda:string= "D";
-let valor:number= 44;
+let moeda: string = "D";
 
-let euros= cambio(moeda,valor);
+let valor: number = 50;
 
-console.log(euros);
+let result = exchange(moeda, valor)
+
+console.log(result)

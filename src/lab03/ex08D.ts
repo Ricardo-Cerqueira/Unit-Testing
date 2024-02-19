@@ -1,7 +1,7 @@
-import { somaAlgarismosNumInt } from "./functionslab3";
+import { sumDigts } from "./functions";
 
-const numero:number= 123456;
+let num: number = 3344;
 
-const resultado=somaAlgarismosNumInt(numero);
+let result: number = sumDigts(num);
 
-console.log(resultado);
+console.log(result)

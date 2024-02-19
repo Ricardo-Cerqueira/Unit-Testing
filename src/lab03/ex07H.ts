@@ -1,10 +1,12 @@
-import { mediaMultiplosDoisValores } from "./functionslab3";
+import { multipleAvarageXY } from "./functions";
 
-const multiploX:number =3;
-const multiploY:number =2; 
-const inicioIntervalo:number=1;
-const fimIntervalo:number =10;
+const num1: number = 2;
 
-const resultado = mediaMultiplosDoisValores(multiploX, multiploY, inicioIntervalo, fimIntervalo);
+const num2: number = 14;
 
-console.log(resultado);
+const multipleX: number = 3;
+const multipleY: number = 5;
+
+let result = multipleAvarageXY(num1, num2, multipleX, multipleY);
+
+console.log(result);

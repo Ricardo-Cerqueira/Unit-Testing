@@ -1,7 +1,7 @@
-import { verificarCapicua } from "./functionslab3";
+import { checkNumAmstrong } from "./functions";
 
-const numero:number = 393;
+let num: number = 157;
 
-const resultado = verificarCapicua(numero);
+let result: boolean = checkNumAmstrong(num);
 
-console.log(resultado);
+console.log(result)

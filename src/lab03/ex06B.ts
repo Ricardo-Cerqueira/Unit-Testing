@@ -1,8 +1,8 @@
-import { multiplosNumeroInteiro } from "./functionslab3";
+import { multipleX } from "./functions";
 
-const multiplo:number= 5;
-const intervalo:number []= [10,12,15,19,20];
+let contadorb1: number = 7
+let contadorb2: number[] = [10, 35, 5, 21, 100]
 
-const resultado= multiplosNumeroInteiro(multiplo,intervalo);
+let resultb = multipleX(contadorb1, contadorb2);
 
-console.log(resultado);
+console.log(resultb)

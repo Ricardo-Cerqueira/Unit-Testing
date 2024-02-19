@@ -1,7 +1,7 @@
-import { numeroAlgarismosNumInt } from "./functionslab3";
+import { numAlgarith } from "./functions";
 
-const numero:number =123456;
+let num: number = 300;
 
-const resultado= numeroAlgarismosNumInt(numero);
+let result: number = numAlgarith(num);
 
-console.log(resultado);
+console.log(result)

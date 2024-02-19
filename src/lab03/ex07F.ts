@@ -1,8 +1,11 @@
-import { produtoMultiplos } from "./functionslab3";
+import { multipleProduct } from "./functions";
 
-const multiplo:number= 5;
-const intervalo:number [] = [10,12,13,15,20];
+const num1: number = 2;
 
-const resultado = produtoMultiplos(multiplo,intervalo);
+const num2: number = 6;
 
-console.log(resultado);
+const multiple: number = 2;
+
+let result = multipleProduct(num1, num2, multiple);
+
+console.log(result);

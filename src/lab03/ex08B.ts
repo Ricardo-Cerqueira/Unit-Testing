@@ -1,7 +1,7 @@
-import { contaAlgarismosPares } from "./functionslab3";
+import { numAlgarithEven} from "./functions";
 
-const numero:number = 2469758;
+let num: number = 245;
 
-const resultado = contaAlgarismosPares(numero);
+let result: number = numAlgarithEven(num);
 
-console.log(resultado);
+console.log(result);

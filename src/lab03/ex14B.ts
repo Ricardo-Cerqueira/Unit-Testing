@@ -1,8 +1,9 @@
-import { caniculturaB } from "./functionslab3";
+import { dogWeightMultiple } from "./functions";
 
-const pesos:number [] = [7,15,30,50];
-const racao:number [] = [100,150,400];
+let dogweight: number[] = [20, 10, 40, 60]
 
-const resultado = caniculturaB(pesos,racao);
+let petFood: number[] = [ 150, 300, 500, 40]
 
-console.log(resultado);
+let result = dogWeightMultiple(dogweight, petFood)
+
+console.log(result)

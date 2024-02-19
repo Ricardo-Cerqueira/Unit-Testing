@@ -1,7 +1,7 @@
-import { somaAlgarismosPares } from "./functionslab3";
+import { sumDigtsEven } from "./functions";
 
-const numero:number = 1245679;
+let num: number = 654;
 
-const resultado= somaAlgarismosPares(numero);
+let result: number = sumDigtsEven(num);
 
-console.log(resultado);
+console.log(result)

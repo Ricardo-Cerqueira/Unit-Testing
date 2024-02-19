@@ -1,8 +1,7 @@
-import { qualAlgoritmo } from "./functionslab3";
+import { calculateFactorial } from "./functions";
 
-let numero:number = 6;
-let resultado:number; 
+let num: number = 10;
 
-resultado = qualAlgoritmo(numero);
+const result = calculateFactorial(num);
 
-console.log(resultado);
+console.log(result);

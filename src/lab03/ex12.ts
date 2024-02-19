@@ -1,7 +1,7 @@
-import { classificacaoNumeros } from "./functionslab3";
+import { numberClassification } from "./functions";
 
-const numero:number =9;
+let num: number = 6;
 
-const resultado = classificacaoNumeros(numero);
+let result: number = numberClassification(num);
 
-console.log(resultado);
+console.log(result);

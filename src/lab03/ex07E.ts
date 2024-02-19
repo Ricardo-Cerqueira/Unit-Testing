@@ -1,9 +1,11 @@
-import { somaMultiplos } from "./functionslab3";
+import { sumMultiplesInRange } from "./functions";
 
-const multiplo:number = 5;
-const inicioIntervalo:number =10;
-const fimIntervalo:number =35; 
+const num1: number = 2;
 
-const resultado = somaMultiplos(multiplo, inicioIntervalo, fimIntervalo);
+const num2: number = 6;
 
-console.log(resultado);
+const multiple: number = 2;
+
+let result = sumMultiplesInRange(num1, num2, multiple);
+
+console.log(result);

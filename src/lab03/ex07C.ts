@@ -1,7 +1,9 @@
-import { somaImpares } from "./functionslab3";
+import { sumOdd } from "./functions";
 
-const numeros:number []= [3,1,4,6,5];
+const num1: number = 3;
 
-const resultado = somaImpares(numeros);
+const num2: number = 7;
 
-console.log(resultado);
+let result = sumOdd(num1, num2);
+
+console.log(result);

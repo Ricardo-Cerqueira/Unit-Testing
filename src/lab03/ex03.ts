@@ -1,7 +1,7 @@
-import { descricaoProduto } from "./functionslab3";
+import { productDescription } from "./functions";
 
-let codigo:number= 12;
+let product: number = 1;
 
-let resultado= descricaoProduto(codigo);
+let result = productDescription(product);
 
-console.log(resultado);
+console.log(result);

@@ -1,8 +1,9 @@
-import { contaPares } from "./functionslab3";
+import { quantityEven } from "./functions";
 
-const numeros:number []= [2,6,8,13,17,21];
+const num1: number = 2;
 
+const num2: number = 6;
 
-const result = contaPares(numeros);
+let result = quantityEven(num1, num2);
 
 console.log(result);

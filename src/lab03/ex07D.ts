@@ -1,7 +1,9 @@
-import { contaImpares } from "./functionslab3";
+import { quantityOdd } from "./functions";
 
-const numeros :number [] = [1,2,5,6,10,11];
+const num1: number = 3;
 
-const resultado = contaImpares(numeros);
+const num2: number = 7;
 
-console.log(resultado);
+let result = quantityOdd(num1, num2);
+
+console.log(result);

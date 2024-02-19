@@ -1,8 +1,7 @@
-import { retencaoSalarial } from "./functionslab3";
+import { salaryRentention } from "./functions";
 
-let result:number;
-let salario:number = 600;
+let salario: number = 499;
 
-result= retencaoSalarial(salario);
+let result = salaryRentention(salario);
 
-//console.log(result);
+console.log(result);

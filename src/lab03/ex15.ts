@@ -1,7 +1,7 @@
-import { checksumNumero } from "./functionslab3";
+import { checkSumNum } from "./functions";
 
-const numero:string= "12345678";
+let num: string = '15243332'
 
-const resultado = checksumNumero(numero);
+let result = checkSumNum(num)
 
-console.log(resultado);
+console.log(result)
