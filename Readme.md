@@ -1,6 +1,7 @@
-# DESOFT I - Lab Classes Support Project
+# Unit Testing
 
-Look at the docs folder for the documentation.
+These are some exercises made in the early process of my QA automation journey.
+Some information may be outdated. 
 
 # How to prepare the environment?
 
@@ -83,4 +84,4 @@ $ npx stryker run
 
 # Who do I talk to about this repository?
 
-Nuno Bettencourt
+Ricardo Cerqueira
